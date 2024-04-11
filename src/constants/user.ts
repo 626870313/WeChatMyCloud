@@ -1,0 +1,3 @@
+export const SET_IS_OPENED = 'MODIFY_IS_OPENED'
+export const SET_LOGIN_INFO = 'SET_LOGIN_INFO'
+

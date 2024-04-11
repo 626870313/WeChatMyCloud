@@ -1,0 +1,93 @@
+@arrWidth: 30px;
+@arrHidth: 30px;
+
+.my{
+  margin: 0px 30px;
+  .my-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .my-header-left{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1rem;
+      .my-image{
+        border-radius: 50%;
+        padding: 5px;
+        border: 0.5px solid gray;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        Image {
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .my-header-right{
+      Image {
+        width: 45px;
+        height: 45px;
+      }
+    }
+
+
+  }
+  
+  .my-use{
+    margin:40px 0px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(246, 244, 244);
+    display: flex;
+    flex-direction: column;
+
+    .my-use-top{
+      color: gray;
+    }
+
+    .my-use-center{
+      margin: 35px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .textOne{
+        font-weight: bold;
+        font-size: 45px;
+      }
+
+      .textTwo{
+        font-weight: lighter;
+        font-size: 30px;
+      }
+    }
+  }
+
+  .my-unbind{
+    margin:40px 0px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(246, 244, 244);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .my-recommend{
+    margin:40px 0px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(246, 244, 244);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  Image{
+    width: @arrWidth;
+    height: @arrHidth;
+  }
+}
